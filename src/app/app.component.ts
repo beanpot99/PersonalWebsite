@@ -3,15 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <div class="navbar">
-      <div class="navbar-brand">
-        <a class="navbar-item"></a>
-        MY LOGO GOES HERE
-      </div>
-    </div>
+    <app-header></app-header>
+    <app-contact-page></app-contact-page>
+    <app-home></app-home>
     <router-outlet></router-outlet>
+    <app-footer></app-footer>
   `,
-  styles: []
+  styles: [
+  ]
 })
 export class AppComponent {
   title = 'grace-personal-page';
