@@ -33,7 +33,11 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </div>
   `,
-  styles: [
+  styles: [`
+    .navbar{
+      
+    }
+    `
   ]
 })
 export class HeaderComponent implements OnInit {
