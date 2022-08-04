@@ -18,16 +18,16 @@ import { Component, OnInit } from '@angular/core';
 
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item">
+      <a class="navbar-item" routerLink="/">
         Home
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item" routerLink="/aboutMe">
         About Me
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item" routerLink="/projects">
         Projects
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item" routerLink="/contact">
         Contact Me
       </a>
       </div>
